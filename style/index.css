@@ -1,0 +1,94 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    background-color:#3e4a61 ;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color: #111111;
+    transition: all 200ms;
+}
+
+.balance-icon{
+    color: darkgoldenrod;
+}
+
+.main-container {
+    background-image: url("../assets/images/Advogado-principal.jpg");
+    height: 500px; 
+    width: 100%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover ; /* Resize the background image to cover the entire container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-text{
+    color: white;
+    padding: 30px;
+    margin-left: 30px;
+    margin-top: -100px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 2%;
+    background-color: #d1d6df30;
+}
+
+.main-text h2 {
+    font-weight: 700;
+}
+
+.main-text p {
+    font-size: 18px;
+}
+
+.about-office-container {
+    display: flex;
+    align-items: center;
+    height: 500px; 
+    padding: 0 25px;
+    background-color: #384f74;
+}
+
+.img-bout-office {
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+    position: relative;
+}
+
+.img-bout-office img {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: -30px -20px #996749 ;
+}
+
+.about-office-text{
+    width: 50%;
+    color: #ffffff;
+    padding: 10px;
+}
+
+    /* background-image: url('../assets/images/advogado-conteudo.jpg');
+    background-repeat: no-repeat;  */
+    /* background-size: cover;  */
