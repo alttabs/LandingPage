@@ -130,7 +130,46 @@ body, html{
     font-size: 50px;
 }
 
+.footer-class {
+    background-color:#c5e3f6; 
+    padding: 45px 0 20px;
+    font-size: 15px;
+}
 
+.footer-class h6 {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform:uppercase;
+    margin-top: 5px;
+}
+
+.footer-class a{
+    color: #ffffff;
+}
+
+.footer-class a:hover{
+    color:#384f74;
+    transition: 0.5s;
+}
+
+.footer-categories {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-class li{
+    display: block;
+}
+
+.footer-class .social-footer a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+  }
 
 
 
